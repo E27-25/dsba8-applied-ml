@@ -82,26 +82,40 @@ jupyter notebook
 ```
 dsba8-applied-ml/
 │
-├── 📄 README.md                          ← You are here
-├── 📊 app_ml_syllabus.jpg                ← Course syllabus
-├── 📓 K-means Clustering.ipynb           ← Week 1 Lab Notebook
-├── 📑 01 Intro ML & K-means.pdf          ← Week 1 Lecture Slides
+├── 📄 README.md                              ← You are here
+├── 📊 app_ml_syllabus.jpg                    ← Course syllabus
 │
-├── 📂 week01-kmeans-clustering/          ← Week 1 (30 Jun)
-│   └── README.md                         ← Lab notes + example code ✅
-├── 📂 week02-density-based-clustering/   ← Week 2 (7 Jul)
-├── 📂 week03-knn-model-validation/       ← Week 3 (14 Jul)
-├── 📂 week04-decision-trees/             ← Week 4 (21 Jul)
-├── 📂 week05-linear-logistic-regression/ ← Week 5 (28 Jul)
-├── 📂 week06-neural-networks/            ← Week 6 (4 Aug)
-├── 📂 week07-ensemble-classifier-1/      ← Week 7 (11 Aug)
-├── 📂 week08-ensemble-classifier-2/      ← Week 8 (25 Aug)
-├── 📂 week09-association-rule-apriori/   ← Week 9 (8 Sep)
-├── 📂 week10-fpt-algorithm/              ← Week 10 (15 Sep)
-├── 📂 week11-sequential-pattern-discovery/ ← Week 11 (22 Sep)
-├── 📂 week12-prescriptive-recommender/   ← Week 12 (29 Sep)
-├── 📂 week14-mlops-lifecycle/            ← Week 14 (13 Oct)
-└── 📂 week15-term-project/              ← Week 15 (20 Oct)
+├── 📂 week01-kmeans-clustering/              ← Week 1 (30 Jun) ✅
+│   ├── 📓 K-means Clustering.ipynb           ← Lab Notebook
+│   ├── 📑 01 Intro ML & K-means.pdf          ← Lecture Slides
+│   └── 📄 README.md                          ← Lab notes + example code
+│
+├── 📂 week02-density-based-clustering/       ← Week 2 (7 Jul)
+│   └── 📄 README.md
+├── 📂 week03-knn-model-validation/           ← Week 3 (14 Jul)
+│   └── 📄 README.md
+├── 📂 week04-decision-trees/                 ← Week 4 (21 Jul)
+│   └── 📄 README.md
+├── 📂 week05-linear-logistic-regression/     ← Week 5 (28 Jul)
+│   └── 📄 README.md
+├── 📂 week06-neural-networks/                ← Week 6 (4 Aug)
+│   └── 📄 README.md
+├── 📂 week07-ensemble-classifier-1/          ← Week 7 (11 Aug)
+│   └── 📄 README.md
+├── 📂 week08-ensemble-classifier-2/          ← Week 8 (25 Aug)
+│   └── 📄 README.md
+├── 📂 week09-association-rule-apriori/       ← Week 9 (8 Sep)
+│   └── 📄 README.md
+├── 📂 week10-fpt-algorithm/                  ← Week 10 (15 Sep)
+│   └── 📄 README.md
+├── 📂 week11-sequential-pattern-discovery/   ← Week 11 (22 Sep)
+│   └── 📄 README.md
+├── 📂 week12-prescriptive-recommender/       ← Week 12 (29 Sep)
+│   └── 📄 README.md
+├── 📂 week14-mlops-lifecycle/                ← Week 14 (13 Oct)
+│   └── 📄 README.md
+└── 📂 week15-term-project/                   ← Week 15 (20 Oct)
+    └── 📄 README.md
 ```
 
 ---
