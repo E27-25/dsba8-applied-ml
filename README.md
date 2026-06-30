@@ -86,33 +86,59 @@ dsba8-applied-ml/
 ├── 📊 app_ml_syllabus.jpg                    ← Course syllabus
 │
 ├── 📂 week01-kmeans-clustering/              ← Week 1 (30 Jun) ✅
-│   ├── 📓 K-means Clustering.ipynb           ← Lab Notebook
-│   ├── 📑 01 Intro ML & K-means.pdf          ← Lecture Slides
+│   ├── 📂 slides/                            ← Lecture slides (PDF)
+│   │   └── 01 Intro ML & K-means.pdf
+│   ├── 📂 docs/                              ← Lab notebooks & worksheets
+│   │   └── K-means Clustering.ipynb
 │   └── 📄 README.md                          ← Lab notes + example code
 │
 ├── 📂 week02-density-based-clustering/       ← Week 2 (7 Jul)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week03-knn-model-validation/           ← Week 3 (14 Jul)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week04-decision-trees/                 ← Week 4 (21 Jul)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week05-linear-logistic-regression/     ← Week 5 (28 Jul)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week06-neural-networks/                ← Week 6 (4 Aug)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week07-ensemble-classifier-1/          ← Week 7 (11 Aug)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week08-ensemble-classifier-2/          ← Week 8 (25 Aug)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week09-association-rule-apriori/       ← Week 9 (8 Sep)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week10-fpt-algorithm/                  ← Week 10 (15 Sep)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week11-sequential-pattern-discovery/   ← Week 11 (22 Sep)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week12-prescriptive-recommender/       ← Week 12 (29 Sep)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 ├── 📂 week14-mlops-lifecycle/                ← Week 14 (13 Oct)
+│   ├── 📂 slides/
+│   ├── 📂 docs/
 │   └── 📄 README.md
 └── 📂 week15-term-project/                   ← Week 15 (20 Oct)
     └── 📄 README.md
