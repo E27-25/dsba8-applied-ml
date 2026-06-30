@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- Animated Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Applied%20Machine%20Learning&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=DSBA8%20%7C%20King%20Mongkut%27s%20University%20of%20Technology%20Thonburi&descAlignY=58&descSize=16" width="100%"/>
 
-<!-- Badges -->
 <p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
@@ -33,23 +31,23 @@
 
 | Week | Date | Topic | Materials |
 |:---:|:---:|---|:---:|
-| **1** | 30 Jun | 🔵 K-Means Clustering + Data Preprocessing | [📂 Week 1](./week01-kmeans-clustering/) |
-| **2** | 7 Jul | 🟣 Density-Based Clustering (DBSCAN) | [📂 Week 2](./week02-density-based-clustering/) |
-| **3** | 14 Jul | 🟢 K-Nearest Neighbor + Model Validation | [📂 Week 3](./week03-knn-model-validation/) |
-| **4** | 21 Jul | 🟡 Decision Trees | [📂 Week 4](./week04-decision-trees/) |
-| **5** | 28 Jul | 🟠 Linear Regression + Logistic Regression | [📂 Week 5](./week05-linear-logistic-regression/) |
-| **6** | 4 Aug | 🔴 Neural Networks | [📂 Week 6](./week06-neural-networks/) |
-| **7** | 11 Aug | ⚡ Ensemble Classifier (Part 1) | [📂 Week 7](./week07-ensemble-classifier-1/) |
+| 1 | 30 Jun | K-Means Clustering + Data Preprocessing | [Week 1](./week01-kmeans-clustering/) |
+| 2 | 7 Jul | Density-Based Clustering (DBSCAN) | [Week 2](./week02-density-based-clustering/) |
+| 3 | 14 Jul | K-Nearest Neighbor + Model Validation | [Week 3](./week03-knn-model-validation/) |
+| 4 | 21 Jul | Decision Trees | [Week 4](./week04-decision-trees/) |
+| 5 | 28 Jul | Linear Regression + Logistic Regression | [Week 5](./week05-linear-logistic-regression/) |
+| 6 | 4 Aug | Neural Networks | [Week 6](./week06-neural-networks/) |
+| 7 | 11 Aug | Ensemble Classifier (Part 1) | [Week 7](./week07-ensemble-classifier-1/) |
 | — | 18 Aug | 📝 **Midterm Exam** (Week 1–6) | — |
-| **8** | 25 Aug | ⚡ Ensemble Classifier (Part 2) | [📂 Week 8](./week08-ensemble-classifier-2/) |
-| — | 1 Sep | 🏛️ KMITL EXPO 2026 | — |
-| **9** | 8 Sep | 🔗 Association Rule: Apriori Algorithm | [📂 Week 9](./week09-association-rule-apriori/) |
-| **10** | 15 Sep | 🌳 FPT Algorithm | [📂 Week 10](./week10-fpt-algorithm/) |
-| **11** | 22 Sep | 📊 Sequential Pattern Discovery | [📂 Week 11](./week11-sequential-pattern-discovery/) |
-| **12** | 29 Sep | 🎯 Prescriptive Analytics + Recommender System | [📂 Week 12](./week12-prescriptive-recommender/) |
+| 8 | 25 Aug | Ensemble Classifier (Part 2) | [Week 8](./week08-ensemble-classifier-2/) |
+| — | 1 Sep | KMITL EXPO 2026 | — |
+| 9 | 8 Sep | Association Rule: Apriori Algorithm | [Week 9](./week09-association-rule-apriori/) |
+| 10 | 15 Sep | FPT Algorithm | [Week 10](./week10-fpt-algorithm/) |
+| 11 | 22 Sep | Sequential Pattern Discovery | [Week 11](./week11-sequential-pattern-discovery/) |
+| 12 | 29 Sep | Prescriptive Analytics + Recommender System | [Week 12](./week12-prescriptive-recommender/) |
 | — | 6 Oct | 🧪 **Practical Exam** | — |
-| **14** | 13 Oct | 🚀 MLOps Lifecycle | [📂 Week 14](./week14-mlops-lifecycle/) |
-| **15** | 20 Oct | 🎓 Term Project Presentation | [📂 Week 15](./week15-term-project/) |
+| 14 | 13 Oct | MLOps Lifecycle | [Week 14](./week14-mlops-lifecycle/) |
+| 15 | 20 Oct | Term Project Presentation | [Week 15](./week15-term-project/) |
 | — | 26 Oct | 📋 **Final Exam** | — |
 
 ---
@@ -82,66 +80,68 @@ jupyter notebook
 ```
 dsba8-applied-ml/
 │
-├── 📄 README.md                              ← You are here
-├── 📊 app_ml_syllabus.jpg                    ← Course syllabus
+├── README.md
+├── app_ml_syllabus.jpg
 │
-├── 📂 week01-kmeans-clustering/              ← Week 1 (30 Jun) ✅
-│   ├── 📂 slides/                            ← Lecture slides (PDF)
-│   │   └── 01 Intro ML & K-means.pdf
-│   ├── 📂 docs/                              ← Lab notebooks & worksheets
+├── week01-kmeans-clustering/              ← Week 1 (30 Jun) ✅
+│   ├── slides/
+│   │   └── 01 Intro ML & K-means Clustering.pdf
+│   ├── lab-week01/
 │   │   └── K-means Clustering.ipynb
-│   └── 📄 README.md                          ← Lab notes + example code
+│   └── README.md
 │
-├── 📂 week02-density-based-clustering/       ← Week 2 (7 Jul)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week03-knn-model-validation/           ← Week 3 (14 Jul)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week04-decision-trees/                 ← Week 4 (21 Jul)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week05-linear-logistic-regression/     ← Week 5 (28 Jul)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week06-neural-networks/                ← Week 6 (4 Aug)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week07-ensemble-classifier-1/          ← Week 7 (11 Aug)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week08-ensemble-classifier-2/          ← Week 8 (25 Aug)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week09-association-rule-apriori/       ← Week 9 (8 Sep)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week10-fpt-algorithm/                  ← Week 10 (15 Sep)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week11-sequential-pattern-discovery/   ← Week 11 (22 Sep)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week12-prescriptive-recommender/       ← Week 12 (29 Sep)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-├── 📂 week14-mlops-lifecycle/                ← Week 14 (13 Oct)
-│   ├── 📂 slides/
-│   ├── 📂 docs/
-│   └── 📄 README.md
-└── 📂 week15-term-project/                   ← Week 15 (20 Oct)
-    └── 📄 README.md
+├── week02-density-based-clustering/       ← Week 2 (7 Jul)
+│   ├── slides/
+│   ├── lab-week02/
+│   └── README.md
+├── week03-knn-model-validation/           ← Week 3 (14 Jul)
+│   ├── slides/
+│   ├── lab-week03/
+│   └── README.md
+├── week04-decision-trees/                 ← Week 4 (21 Jul)
+│   ├── slides/
+│   ├── lab-week04/
+│   └── README.md
+├── week05-linear-logistic-regression/     ← Week 5 (28 Jul)
+│   ├── slides/
+│   ├── lab-week05/
+│   └── README.md
+├── week06-neural-networks/                ← Week 6 (4 Aug)
+│   ├── slides/
+│   ├── lab-week06/
+│   └── README.md
+├── week07-ensemble-classifier-1/          ← Week 7 (11 Aug)
+│   ├── slides/
+│   ├── lab-week07/
+│   └── README.md
+├── week08-ensemble-classifier-2/          ← Week 8 (25 Aug)
+│   ├── slides/
+│   ├── lab-week08/
+│   └── README.md
+├── week09-association-rule-apriori/       ← Week 9 (8 Sep)
+│   ├── slides/
+│   ├── lab-week09/
+│   └── README.md
+├── week10-fpt-algorithm/                  ← Week 10 (15 Sep)
+│   ├── slides/
+│   ├── lab-week10/
+│   └── README.md
+├── week11-sequential-pattern-discovery/   ← Week 11 (22 Sep)
+│   ├── slides/
+│   ├── lab-week11/
+│   └── README.md
+├── week12-prescriptive-recommender/       ← Week 12 (29 Sep)
+│   ├── slides/
+│   ├── lab-week12/
+│   └── README.md
+├── week14-mlops-lifecycle/                ← Week 14 (13 Oct)
+│   ├── slides/
+│   ├── lab-week14/
+│   └── README.md
+└── week15-term-project/                   ← Week 15 (20 Oct)
+    ├── slides/
+    ├── lab-week15/
+    └── README.md
 ```
 
 ---
@@ -164,27 +164,18 @@ dsba8-applied-ml/
 ## 🛠️ Tools & Libraries
 
 ```python
-# Core ML
-from sklearn.cluster    import KMeans
-from sklearn.neighbors  import KNeighborsClassifier
-from sklearn.tree       import DecisionTreeClassifier
+from sklearn.cluster      import KMeans
+from sklearn.neighbors    import KNeighborsClassifier
+from sklearn.tree         import DecisionTreeClassifier
 from sklearn.linear_model import LinearRegression, LogisticRegression
-from sklearn.ensemble   import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.ensemble     import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.neural_network import MLPClassifier
-
-# Evaluation
-from sklearn.metrics import (silhouette_score, davies_bouldin_score,
-                              calinski_harabasz_score, accuracy_score,
-                              classification_report, confusion_matrix)
-
-# Visualization
-from yellowbrick.cluster import KElbowVisualizer
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Data
+from sklearn.metrics      import silhouette_score, accuracy_score, classification_report
+from yellowbrick.cluster  import KElbowVisualizer
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 ```
 
 ---
@@ -195,15 +186,12 @@ import numpy as np
 from sklearn.cluster import KMeans
 import pandas as pd
 
-# 1. Prepare data
 df = pd.DataFrame({'age': [42, 18, 23, 49, 37, 51, 40, 20],
                    'eng': [7,   3,  2,  1,  7,  1,  6,  4]})
 
-# 2. Fit model
 model = KMeans(n_clusters=3, random_state=42)
 model.fit(df)
 
-# 3. Results
 df['cluster'] = model.labels_
 print(df)
 print("Centroids:\n", model.cluster_centers_)
@@ -218,25 +206,12 @@ print("WCSS:", model.inertia_)
 
 | Event | Date |
 |---|---|
-| 🎓 First Class | 30 June 2026 |
-| 📝 Midterm Exam | 18 August 2026 |
-| 🏛️ KMITL EXPO | 1 September 2026 |
-| 🧪 Practical Exam | 6 October 2026 |
-| 🎤 Term Project Presentation | 20 October 2026 |
-| 📋 Final Exam | 26 October 2026 |
-
----
-
-## 🤝 Contributing
-
-Each week folder contains a `README.md` with:
-- 📖 Learning objectives
-- 💡 Key concepts & theory
-- 🛠️ Example code snippets
-- 📌 Tips & common mistakes
-- 📁 Lab files
-
-Feel free to add your own notes and solutions inside the week folders!
+| First Class | 30 June 2026 |
+| Midterm Exam | 18 August 2026 |
+| KMITL EXPO | 1 September 2026 |
+| Practical Exam | 6 October 2026 |
+| Term Project Presentation | 20 October 2026 |
+| Final Exam | 26 October 2026 |
 
 ---
 
