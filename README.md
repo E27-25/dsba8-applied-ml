@@ -11,7 +11,7 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Semester-2%2F2568-blueviolet?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Semester-1%2F2569-blueviolet?style=flat-square"/>
   <img src="https://img.shields.io/badge/Weeks-15-success?style=flat-square"/>
   <img src="https://img.shields.io/badge/Language-Python-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square"/>
