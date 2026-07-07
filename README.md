@@ -90,9 +90,11 @@ dsba8-applied-ml/
 │   │   └── K-means Clustering.ipynb
 │   └── README.md
 │
-├── week02-density-based-clustering/       ← Week 2 (7 Jul)
+├── week02-density-based-clustering/       ← Week 2 (7 Jul) ✅
 │   ├── slides/
 │   ├── lab-week02/
+│   │   └── DBSCAN Clustering_Synthetic dataset.ipynb
+│   ├── homework-week02/
 │   └── README.md
 ├── week03-knn-model-validation/           ← Week 3 (14 Jul)
 │   ├── slides/
