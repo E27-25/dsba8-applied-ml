@@ -77,7 +77,10 @@ jupyter notebook
 
 ## 📁 Repository Structure
 
-```
+<details>
+<summary><b>Expand to view full repository tree</b></summary>
+
+```text
 dsba8-applied-ml/
 │
 ├── README.md
@@ -145,6 +148,8 @@ dsba8-applied-ml/
     ├── lab-week15/
     └── README.md
 ```
+
+</details>
 
 ---
 
