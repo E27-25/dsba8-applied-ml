@@ -184,7 +184,10 @@ import seaborn as sns
 
 ---
 
-## ✨ Week 1 Highlight — K-Means at a Glance
+## ✨ Course Highlights
+
+<details>
+<summary><b>Week 1 Highlight — K-Means at a Glance</b></summary>
 
 ```python
 from sklearn.cluster import KMeans
@@ -204,9 +207,10 @@ print("WCSS:", model.inertia_)
 
 > 👉 See **[Week 1 full lab notes](./week01-kmeans-clustering/README.md)** for step-by-step guide with both Lab 1 & Lab 2!
 
----
+</details>
 
-## ✨ Week 2 Highlight — DBSCAN at a Glance
+<details>
+<summary><b>Week 2 Highlight — DBSCAN at a Glance</b></summary>
 
 ```python
 from sklearn.cluster import DBSCAN
@@ -227,6 +231,8 @@ plt.show()
 ```
 
 > 👉 See **[Week 2 full lab notes](./week02-density-based-clustering/README.md)** for step-by-step guide with the synthetic dataset!
+
+</details>
 
 ---
 
