@@ -204,6 +204,30 @@ print("WCSS:", model.inertia_)
 
 ---
 
+## ✨ Week 2 Highlight — DBSCAN at a Glance
+
+```python
+from sklearn.cluster import DBSCAN
+from sklearn.datasets import make_moons
+import matplotlib.pyplot as plt
+
+# Generate a synthetic "moons" dataset
+X, _ = make_moons(n_samples=200, noise=0.05, random_state=42)
+
+# Apply DBSCAN clustering
+dbscan = DBSCAN(eps=0.2, min_samples=5)
+clusters = dbscan.fit_predict(X)
+
+# Visualizing the results
+plt.scatter(X[:, 0], X[:, 1], c=clusters, cmap='viridis')
+plt.title('DBSCAN Clustering on Moons Dataset')
+plt.show()
+```
+
+> 👉 See **[Week 2 full lab notes](./week02-density-based-clustering/README.md)** for step-by-step guide with the synthetic dataset!
+
+---
+
 ## 📌 Important Dates
 
 | Event | Date |
