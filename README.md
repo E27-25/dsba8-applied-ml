@@ -166,13 +166,15 @@ dsba8-applied-ml/
 ## 🛠️ Tools & Libraries
 
 ```python
-from sklearn.cluster      import KMeans
-from sklearn.neighbors    import KNeighborsClassifier
+from sklearn.cluster      import KMeans, DBSCAN
+from sklearn.datasets     import make_moons
+from sklearn.neighbors    import KNeighborsClassifier, NearestNeighbors
 from sklearn.tree         import DecisionTreeClassifier
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.ensemble     import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics      import silhouette_score, accuracy_score, classification_report
+from sklearn.metrics      import davies_bouldin_score, calinski_harabasz_score
 from yellowbrick.cluster  import KElbowVisualizer
 import pandas as pd
 import numpy as np
