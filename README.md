@@ -27,6 +27,14 @@
 
 ---
 
+## 📊 Student Progress Dashboard
+
+Students can view their real-time lab completion status and grades on the TA dashboard:
+
+👉 **[Check Your Lab Grades Here](https://webapp-tau-navy.vercel.app)**
+
+---
+
 ## 🗓️ Course Schedule
 
 | Week | Date | Topic | Materials |
