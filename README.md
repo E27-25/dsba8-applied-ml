@@ -255,28 +255,48 @@ plt.show()
 </details>
 
 <details>
-<summary><b>Week 3 Highlight — KNN Classification at a Glance</b></summary>
+<summary><b>Week 3 Highlight — KNN & Regression at a Glance</b></summary>
 
+**KNN Classification:**
 ```python
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_iris
 
-# Load Iris dataset
+# Load Iris dataset & Train KNN Model
 X, y = load_iris(return_X_y=True)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-# Train KNN Model
 knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(X_train, y_train)
 
 # Predict & Evaluate
 predictions = knn.predict(X_test)
-print(f"Accuracy: {accuracy_score(y_test, predictions):.2f}")
+print(f"KNN Accuracy: {accuracy_score(y_test, predictions):.2f}")
 ```
 
-> 👉 See **[Week 3 full lab notes](./week03-knn-and-regression/README.md)** for regression and more KNN datasets!
+**Linear Regression:**
+```python
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+import numpy as np
+
+# Generate random linear data
+X_reg = np.array([[1], [2], [3], [4], [5]])
+y_reg = np.array([1.5, 3.1, 4.8, 6.5, 7.9])
+
+# Train Linear Regression Model
+lr = LinearRegression()
+lr.fit(X_reg, y_reg)
+
+# Predict & Evaluate
+y_pred = lr.predict(X_reg)
+print(f"R-squared: {r2_score(y_reg, y_pred):.3f}")
+print(f"Coefficients: {lr.coef_[0]:.3f}, Intercept: {lr.intercept_:.3f}")
+```
+
+> 👉 See **[Week 3 full lab notes](./week03-knn-and-regression/README.md)** for logistic regression and more complex datasets!
 
 </details>
 
