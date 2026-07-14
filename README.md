@@ -279,7 +279,7 @@ print(f"KNN Accuracy: {accuracy_score(y_test, predictions):.2f}")
 **Linear Regression:**
 ```python
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import r2_score
 import numpy as np
 
 # Generate random linear data
@@ -291,12 +291,28 @@ lr = LinearRegression()
 lr.fit(X_reg, y_reg)
 
 # Predict & Evaluate
-y_pred = lr.predict(X_reg)
-print(f"R-squared: {r2_score(y_reg, y_pred):.3f}")
-print(f"Coefficients: {lr.coef_[0]:.3f}, Intercept: {lr.intercept_:.3f}")
+print(f"R-squared: {r2_score(y_reg, lr.predict(X_reg)):.3f}")
 ```
 
-> 👉 See **[Week 3 full lab notes](./week03-knn-and-regression/README.md)** for logistic regression and more complex datasets!
+**Logistic Regression:**
+```python
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix
+from sklearn.datasets import make_classification
+
+# Generate binary classification dataset
+X_bin, y_bin = make_classification(n_samples=100, n_features=2, n_redundant=0, random_state=42)
+
+# Train Logistic Regression Model
+log_reg = LogisticRegression()
+log_reg.fit(X_bin, y_bin)
+
+# Predict & Evaluate
+predictions = log_reg.predict(X_bin)
+print("Confusion Matrix:\n", confusion_matrix(y_bin, predictions))
+```
+
+> 👉 See **[Week 3 full lab notes](./week03-knn-and-regression/README.md)** for detailed data preprocessing and multi-class classification!
 
 </details>
 
