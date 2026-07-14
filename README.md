@@ -33,9 +33,9 @@
 |:---:|:---:|---|:---:|
 | 1 | 30 Jun | K-Means Clustering + Data Preprocessing | [Week 1](./week01-kmeans-clustering/) |
 | 2 | 7 Jul | Density-Based Clustering (DBSCAN) | [Week 2](./week02-density-based-clustering/) |
-| 3 | 14 Jul | K-Nearest Neighbor + Model Validation | [Week 3](./week03-knn-model-validation/) |
+| 3 | 14 Jul | KNN + Linear/Logistic Regression | [Week 3](./week03-knn-regression/) |
 | 4 | 21 Jul | Decision Trees | [Week 4](./week04-decision-trees/) |
-| 5 | 28 Jul | Linear Regression + Logistic Regression | [Week 5](./week05-linear-logistic-regression/) |
+| 5 | 28 Jul | TBD (Syllabus updated) | [Week 5](./week05-linear-logistic-regression/) |
 | 6 | 4 Aug | Neural Networks | [Week 6](./week06-neural-networks/) |
 | 7 | 11 Aug | Ensemble Classifier (Part 1) | [Week 7](./week07-ensemble-classifier-1/) |
 | — | 18 Aug | 📝 **Midterm Exam** (Week 1–6) | — |
@@ -99,9 +99,16 @@ dsba8-applied-ml/
 │   │   └── DBSCAN Clustering_Synthetic dataset.ipynb
 │   ├── homework-week02/
 │   └── README.md
-├── week03-knn-model-validation/           ← Week 3 (14 Jul)
+├── week03-knn-regression/                 ← Week 3 (14 Jul) ✅
 │   ├── slides/
+│   │   ├── 03 Regression_(Linear,_Logistic).pdf
+│   │   └── 04 KNN.pdf
 │   ├── lab-week03/
+│   │   ├── Classification_KNN_Lab1_WineQuality_(BinaryClass).ipynb
+│   │   ├── Classification_KNN_Lab2_Iris_(MultiClass).ipynb
+│   │   ├── Regression_(Linear,_Logistic).ipynb
+│   │   ├── iris.csv
+│   │   └── winequality-red (binary).csv
 │   └── README.md
 ├── week04-decision-trees/                 ← Week 4 (21 Jul)
 │   ├── slides/
