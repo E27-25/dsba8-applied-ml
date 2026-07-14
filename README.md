@@ -254,6 +254,32 @@ plt.show()
 
 </details>
 
+<details>
+<summary><b>Week 3 Highlight — KNN Classification at a Glance</b></summary>
+
+```python
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
+
+# Load Iris dataset
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Train KNN Model
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X_train, y_train)
+
+# Predict & Evaluate
+predictions = knn.predict(X_test)
+print(f"Accuracy: {accuracy_score(y_test, predictions):.2f}")
+```
+
+> 👉 See **[Week 3 full lab notes](./week03-knn-and-regression/README.md)** for regression and more KNN datasets!
+
+</details>
+
 ---
 
 ## 📌 Important Dates
