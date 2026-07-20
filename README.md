@@ -118,9 +118,13 @@ dsba8-applied-ml/
 │   │   ├── iris.csv
 │   │   └── winequality-red (binary).csv
 │   └── README.md
-├── week04-decision-trees/                 ← Week 4 (21 Jul)
+├── week04-decision-trees/                 ← Week 4 (21 Jul) ✅
 │   ├── slides/
+│   │   └── 05 Decision Tree Classifier.pdf
 │   ├── lab-week04/
+│   │   ├── DecisionTree_Heart_Failure_Prediction_code.ipynb
+│   │   ├── DecisionTree_Iris.ipynb
+│   │   └── heart.csv
 │   └── README.md
 ├── week05-linear-logistic-regression/     ← Week 5 (28 Jul)
 │   ├── slides/
@@ -313,6 +317,32 @@ print("Confusion Matrix:\n", confusion_matrix(y_bin, predictions))
 ```
 
 > 👉 See **[Week 3 full lab notes](./week03-knn-and-regression/README.md)** for detailed data preprocessing and multi-class classification!
+
+</details>
+
+<details>
+<summary><b>Week 4 Highlight — Decision Trees at a Glance</b></summary>
+
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
+
+# Load Iris dataset
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Train Decision Tree Model (ID3-like using Entropy)
+dt = DecisionTreeClassifier(criterion='entropy', max_depth=3, random_state=42)
+dt.fit(X_train, y_train)
+
+# Predict & Evaluate
+predictions = dt.predict(X_test)
+print(f"Decision Tree Accuracy: {accuracy_score(y_test, predictions):.2f}")
+```
+
+> 👉 See **[Week 4 full lab notes](./week04-decision-trees/)** for detailed algorithms (ID3, C4.5, CART) and heart failure prediction!
 
 </details>
 
