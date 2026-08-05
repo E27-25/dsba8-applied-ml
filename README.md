@@ -43,19 +43,19 @@ Students can view their real-time lab completion status and grades on the TA das
 | 2 | 7 Jul | Density-Based Clustering (DBSCAN) | [Week 2](./week02-density-based-clustering/) |
 | 3 | 14 Jul | KNN + Linear/Logistic Regression | [Week 3](./week03-knn-and-regression/) |
 | 4 | 21 Jul | Decision Trees | [Week 4](./week04-decision-trees/) |
-| 5 | 28 Jul | TBD (Syllabus updated) | [Week 5](./week05-linear-logistic-regression/) |
-| 6 | 4 Aug | Neural Networks | [Week 6](./week06-neural-networks/) |
-| 7 | 11 Aug | Ensemble Classifier (Part 1) | [Week 7](./week07-ensemble-classifier-1/) |
+| 5 | 28 Jul | Ensemble Classifier (Part 1) | [Week 5](./week05-ensemble-classifier-1/) |
+| 6 | 4 Aug | TBA | [Week 6](./week06-neural-networks/) |
+| 7 | 11 Aug | TBA | [Week 7](./week07-ensemble-classifier-1/) |
 | — | 18 Aug | 📝 **Midterm Exam** (Week 1–6) | — |
-| 8 | 25 Aug | Ensemble Classifier (Part 2) | [Week 8](./week08-ensemble-classifier-2/) |
+| 8 | 25 Aug | TBA | [Week 8](./week08-ensemble-classifier-2/) |
 | — | 1 Sep | KMITL EXPO 2026 | — |
-| 9 | 8 Sep | Association Rule: Apriori Algorithm | [Week 9](./week09-association-rule-apriori/) |
-| 10 | 15 Sep | FPT Algorithm | [Week 10](./week10-fpt-algorithm/) |
-| 11 | 22 Sep | Sequential Pattern Discovery | [Week 11](./week11-sequential-pattern-discovery/) |
-| 12 | 29 Sep | Prescriptive Analytics + Recommender System | [Week 12](./week12-prescriptive-recommender/) |
+| 9 | 8 Sep | TBA | [Week 9](./week09-association-rule-apriori/) |
+| 10 | 15 Sep | TBA | [Week 10](./week10-fpt-algorithm/) |
+| 11 | 22 Sep | TBA | [Week 11](./week11-sequential-pattern-discovery/) |
+| 12 | 29 Sep | TBA | [Week 12](./week12-prescriptive-recommender/) |
 | — | 6 Oct | 🧪 **Practical Exam** | — |
-| 14 | 13 Oct | MLOps Lifecycle | [Week 14](./week14-mlops-lifecycle/) |
-| 15 | 20 Oct | Term Project Presentation | [Week 15](./week15-term-project/) |
+| 14 | 13 Oct | TBA | [Week 14](./week14-mlops-lifecycle/) |
+| 15 | 20 Oct | TBA | [Week 15](./week15-term-project/) |
 | — | 26 Oct | 📋 **Final Exam** | — |
 
 ---
@@ -126,9 +126,15 @@ dsba8-applied-ml/
 │   │   ├── DecisionTree_Iris.ipynb
 │   │   └── heart.csv
 │   └── README.md
-├── week05-linear-logistic-regression/     ← Week 5 (28 Jul)
+├── week05-ensemble-classifier-1/          ← Week 5 (28 Jul) ✅
 │   ├── slides/
+│   │   └── 06 Ensemble Classifier.pdf
 │   ├── lab-week05/
+│   │   ├── AdaBoost_Classifier.ipynb
+│   │   ├── ExtraTrees.ipynb
+│   │   ├── Gradient_Boosting_&_XGB_Classifier.ipynb
+│   │   ├── RandomForest.ipynb
+│   │   └── StackingCVClassifier.ipynb
 │   └── README.md
 ├── week06-neural-networks/                ← Week 6 (4 Aug)
 │   ├── slides/
