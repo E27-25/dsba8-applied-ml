@@ -44,8 +44,8 @@ Students can view their real-time lab completion status and grades on the TA das
 | 3 | 14 Jul | KNN + Linear/Logistic Regression | [Week 3](./week03-knn-and-regression/) |
 | 4 | 21 Jul | Decision Trees | [Week 4](./week04-decision-trees/) |
 | 5 | 28 Jul | Ensemble Classifier (Part 1) | [Week 5](./week05-ensemble-classifier-1/) |
-| 6 | 4 Aug | TBA | [Week 6](./week06-neural-networks/) |
-| 7 | 11 Aug | TBA | [Week 7](./week07-ensemble-classifier-1/) |
+| 6 | 4 Aug | Ensemble Classifier (Part 2) | [Week 6](./week06-ensemble-classifier-2/) |
+| 7 | 11 Aug | Neural Networks | [Week 7](./week07-neural-networks/) |
 | — | 18 Aug | 📝 **Midterm Exam** (Week 1–6) | — |
 | 8 | 25 Aug | TBA | [Week 8](./week08-ensemble-classifier-2/) |
 | — | 1 Sep | KMITL EXPO 2026 | — |
@@ -136,17 +136,18 @@ dsba8-applied-ml/
 │   │   ├── RandomForest.ipynb
 │   │   └── StackingCVClassifier.ipynb
 │   └── README.md
-├── week06-neural-networks/                ← Week 6 (4 Aug)
+├── week06-ensemble-classifier-2/          ← Week 6 (4 Aug) ✅
 │   ├── slides/
+│   │   └── 06 Ensemble Classifier 2.pdf
 │   ├── lab-week06/
 │   └── README.md
-├── week07-ensemble-classifier-1/          ← Week 7 (11 Aug)
+├── week07-neural-networks/                ← Week 7 (11 Aug) ✅
 │   ├── slides/
+│   │   └── 07 Neural Networks.pdf
 │   ├── lab-week07/
-│   └── README.md
-├── week08-ensemble-classifier-2/          ← Week 8 (25 Aug)
-│   ├── slides/
-│   ├── lab-week08/
+│   │   ├── MultiLayer_Perceptron_s_(MLPs).ipynb
+│   │   ├── sklearn_MLPClassifier.ipynb
+│   │   └── TensorflowNeuralNetwork_Iris.ipynb
 │   └── README.md
 ├── week09-association-rule-apriori/       ← Week 9 (8 Sep)
 │   ├── slides/
