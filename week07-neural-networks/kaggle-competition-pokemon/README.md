@@ -10,7 +10,7 @@ In this competition, your task is to predict whether a Pokémon is **Legendary**
 - `data/sample_submission.csv`: An example of what your submission file should look like.
 
 ## 🚀 Baseline Model
-Check out the `Baseline_Model.ipynb` to see how to build a **Multi-Modal Neural Network** using Keras that processes both tabular data (Dense Layers) and images (Flattening / CNNs) at the same time!
+Check out the `Baseline_Model.ipynb` to see how to build a **Multi-Modal Neural Network** using PyTorch that processes both tabular data (Linear Layers) and images (Flattening) at the same time!
 
 ## 🎯 How to Host on Kaggle (For Instructors)
 1. Go to **Kaggle -> Host -> InClass Competition**.
