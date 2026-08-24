@@ -15,5 +15,5 @@ Check out the `Baseline_Model.ipynb` to see how to build a **Multi-Modal Neural 
 ## 🎯 How to Host on Kaggle (For Instructors)
 1. Go to **Kaggle -> Host -> InClass Competition**.
 2. Upload the `train.csv`, `test.csv`, `sample_submission.csv` (and the `images` folder as a zip archive).
-3. Set the evaluation metric to **Log Loss** or **Accuracy**.
+3. Set the evaluation metric to **F1-Score**.
 4. Upload the hidden `solution.csv` as the answer key for the test set.
